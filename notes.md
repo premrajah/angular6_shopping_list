@@ -18,3 +18,6 @@ src="{{ recipe.imagePath }}"
 
 <!-- click listener -->
 (click)="onSelect('name')"
+
+<!-- ElementRef -->
+import from @angular/core
