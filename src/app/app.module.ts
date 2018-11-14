@@ -16,6 +16,7 @@ import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.compon
 import { RecipeAddedComponent } from './recipes/recipe-added/recipe-added.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { RecipeDeleteComponent } from './recipes/recipe-delete/recipe-delete.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { RecipeDeleteComponent } from './recipes/recipe-delete/recipe-delete.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingMoudle
+    AppRoutingMoudle,
+    FormsModule
   ],
   providers: [ShoppingListService],
   bootstrap: [AppComponent]
